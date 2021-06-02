@@ -73,9 +73,9 @@ cat <<TEXT
           caddy.reverse_proxy: '{{upstreams 8000}}'
 TEXT
 echo
+echo "See https://caddyserver.com/docs/caddyfile/directives for details of the Caddy directives."
 echo
-echo "For more info on defining config labels on the target images see…"
-echo "https://github.com/lucaslorentz/caddy-docker-proxy"
+echo "See https://github.com/lucaslorentz/caddy-docker-proxy for details of how to define directives as labels."
 echo
 echo
 echo "To stop the proxy, run…"
