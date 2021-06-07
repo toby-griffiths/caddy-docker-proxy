@@ -1,4 +1,4 @@
-# Caddy Proxy
+# Caddy Docker Proxy
 
 Creates a reverse proxy based on Docker container labels.
 
