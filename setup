@@ -80,9 +80,9 @@ echo
 echo
 echo "To clean things up afterwards, run…"
 echo
-echo "    # stop the proxy
+echo "    # stop the proxy"
 echo "    $ docker rm --force \$(docker ps --filter \"label=service=caddy-proxy\" -q)"
-echo "    # remove the network
-echo "    $ docker network rm caddy
-echo "    # remove the images
-echo "    $ docker rmi lucaslorentz/caddy-docker-proxy:alpine jwilder/whoami
+echo "    # remove the network"
+echo "    $ docker network rm caddy"
+echo "    # remove the images"
+echo "    $ docker rmi lucaslorentz/caddy-docker-proxy:alpine jwilder/whoami"
